@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "HiWPF/1.0.0": {
+        "dependencies": {
+          "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": "3.0.0-preview5-27617-04"
+        },
+        "runtime": {
+          "HiWPF.dll": {}
+        }
+      },
+      "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview5-27617-04": {}
+    }
+  },
+  "libraries": {
+    "HiWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/3.0.0-preview5-27617-04": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+Vg5f2FW62/TbvlN++sDmnw+rS8q0TtnTRTn0JidDqwg3fwu6F9WXn9WgtXWGINV1OO8a7UVIioMTpnwbzBOQ==",
+      "path": "runtime.win-x64.microsoft.netcore.dotnetapphost/3.0.0-preview5-27617-04",
+      "hashPath": "runtime.win-x64.microsoft.netcore.dotnetapphost.3.0.0-preview5-27617-04.nupkg.sha512"
+    }
+  }
+}

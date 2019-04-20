@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CoreHiWPF/.vs/slnx.sqlite
+/CoreHiWPF/.vs/CoreHiWPF/v16/Server/sqlite3/storage.ide-wal
+/CoreHiWPF/.vs/CoreHiWPF/v16/Server/sqlite3/storage.ide-shm
+/CoreHiWPF/.vs/CoreHiWPF/v16/Server/sqlite3/storage.ide
