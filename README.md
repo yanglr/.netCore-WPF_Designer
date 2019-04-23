@@ -110,9 +110,9 @@ After setting done, restart vs to take effect.
 
 传送门: [.netCore-WPF_Designer](https://github.com/yanglr/.netCore-WPF_Designer) , 如果觉得自己配置起来麻烦，也可以 clone 下来自己体验一把喔~
 
-  
 
 **Reference：**
 
 [dotnet/samples - WPF Hello World sample with linked files](https://github.com/dotnet/samples/tree/master/wpf/HelloWorld-WithLinkedFiles)
 
+[ReadMe in Chinese (中文)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/ReadMe.zh-Hans.md)
