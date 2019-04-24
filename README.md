@@ -26,7 +26,11 @@ After setting the relevant project name and storage path, it will pop up:
 
 ## Check "Use preview SDK" under .NET core in VS options
 
-[![img3](https://github.com/yanglr/.netCore-WinForms_Designer/raw/master/screenShots/p3.jpg)](https://github.com/yanglr/.netCore-WinForms_Designer/blob/master/screenShots/p3.jpg)
+
+
+![img3](./screenShots/dotNetcore-setting.png)
+
+
 
 After setting done, restart vs to take effect.
 
