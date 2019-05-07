@@ -55,22 +55,21 @@ After setting done, restart vs to take effect.
  
 
 
-
-此时Solution中的文件目录为:
+Now the file structure of the solution is below:
 
 [![1555776045894](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555776045894.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555776045894.png)
 
 ## Update Assembly Name of .net core WPF "CoreHiWPF", make Assembly Names of two projects are the same
 
-右键点击 .net core WPF项目 CoreHiWPF，选择最后的Properties, 然后将其Assembly Name 改为`HiWPF`.
+Right click the project `CoreHiWPF`, select `Properties`, then change its `Assembly Name` to `HiWPF`.
 
 [![1555773128801](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555773128801.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555773128801.png)
 
-接着右键该项目，选"Edit CoreHiWPF.csproj"。
+Then right click the project, click "Edit CoreHiWPF.csproj".
 
 [![1555773253120](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555773253120.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555773253120.png)
 
-按下图加入如下相应代码:
+Add code as below:
 
 [![1555773381960](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555773381960.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555773381960.png)
 
@@ -92,27 +91,30 @@ After setting done, restart vs to take effect.
 
 ## Ensure .net core WPF project CoreHiWPF is set as start up project
 
-如果.net core WPF项目 CoreHiWPF 已经高亮，就不用管了。否则，需要选中项目 CoreHiWPF ，右击后选“Set As Start up project”.
+If the .net core WPF project `CoreHiWPF` is already highlighted, you can ignore then. Or, you need to select project `CoreHiWPF`, then right click `Set As Start up project`.
 
 ## Try XAML Designer
 
-此时关闭所有打开的文件，双击项目``HiWPF`中的`MainWindow.xaml`，就可以在XAML Designer中看到空白的WPF window了。
+Now close all opened files. Click the file `MainWindow.xaml` of project `HiWPF`. Then you can see empty WPF window in XAML designer now.
 
 [![1555773860860](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555773860860.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555773860860.png)
 
 ## Modify the file MainWindow.xaml and related .cs if needed
+Then, I add two lines to `Grid` of the file `MainWindow.xaml`:
+- One line is a `Label` which support Wrap
+- The other line is a `Exit` button.
 
-接下来，我在`MainWindow.xaml`的`Grid`中加入了两行，一行放的是一个含有文本可换行的`Label`，另一行是`Exit`按钮。然后在Exit按钮上加入了`Click`事件，在`Window`上加入了`Loaded`事件。
+Then I added the `Click` event to `Exit` button, added the `Loaded` event to `Window`.
 
 [![modify](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/modify.gif)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/modify.gif)
 
-代码改完之后，`F5`运行，最后的界面如下:
+After finish updating code, press `F5` to run, the final UI is below:
 
 [![1555774408266](https://github.com/yanglr/.netCore-WPF_Designer/raw/master/screenShots/1555774408266.png)](https://github.com/yanglr/.netCore-WPF_Designer/blob/master/screenShots/1555774408266.png)
 
-项目代码已推到`github`，欢迎`Fork`和`star`.
+The code is pushed to github:
 
-传送门: [.netCore-WPF_Designer](https://github.com/yanglr/.netCore-WPF_Designer) , 如果觉得自己配置起来麻烦，也可以 clone 下来自己体验一把喔~
+[.netCore-WPF_Designer](https://github.com/yanglr/.netCore-WPF_Designer) .
 
 
 **Reference：**
